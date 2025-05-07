@@ -1,5 +1,5 @@
 plugins {
-    id 'fabric-loom' version '1.3'
+    id 'fabric-loom' version '1.4-SNAPSHOT'
     id 'maven-publish'
 }
 
@@ -12,6 +12,10 @@ repositories {
     maven {
         name = 'Fabric'
         url = 'https://maven.fabricmc.net/'
+    }
+    maven {
+        name = 'Fabric Snapshots'
+        url = 'https://maven.fabricmc.net/snapshots'
     }
 }
 
