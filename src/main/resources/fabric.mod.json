@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "announcer",
+  "version": "${version}",
+  "name": "PlayersConnections",
+  "description": "A mod that announces player connections and disconnections",
+  "authors": [
+    "markuki"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.markuki.announcer.AnnouncerMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.7",
+    "minecraft": "~1.21.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+} 
